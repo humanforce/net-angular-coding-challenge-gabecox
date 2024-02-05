@@ -44,6 +44,8 @@ export class SprintInfoComponent implements OnInit {
 
     navigateSprint(offset: number): void {
         this.currentSprint += offset;
+        this.currentSprint = this.currentSprint == 0 ? 1 : this.currentSprint;
+        this.currentSprint = this.currentSprint == 11 ? 10 : this.currentSprint;
         this.currentSprintService.setSprintId(this.currentSprint);
     }
 

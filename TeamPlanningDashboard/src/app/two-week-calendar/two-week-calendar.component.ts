@@ -1,6 +1,6 @@
 import { Component, Injectable, OnInit } from '@angular/core';
 import { CalendarEvent, CalendarUtils } from 'angular-calendar';
-import { addDays, subDays, subHours } from 'date-fns';
+import { addDays, subDays } from 'date-fns';
 import { ApiService } from '../api.service';
 import { CurrentSprintService } from '../current-sprint.service';
 import { components } from '../types/schema';

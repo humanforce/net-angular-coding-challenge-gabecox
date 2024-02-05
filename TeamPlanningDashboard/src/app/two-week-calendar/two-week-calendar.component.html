@@ -1,5 +1,5 @@
 <div class="calendar-container">
-    <span>Sprint {{currentSprint}}: {{viewDate.toLocaleDateString()}} to {{endDate.toLocaleDateString()}}</span>
+    <span>{{viewDate.toLocaleDateString()}} to {{endDate.toLocaleDateString()}}</span>
     <mwl-calendar-month-view-header></mwl-calendar-month-view-header>
     <mwl-calendar-month-view [viewDate]="viewDate" [events]="events">
     </mwl-calendar-month-view>

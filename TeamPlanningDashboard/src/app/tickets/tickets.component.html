@@ -2,7 +2,9 @@
     <h2>Tickets</h2>
     <ul>
         <li *ngFor="let ticket of tickets">
-            <strong>{{ ticket.key }}</strong> - story points: {{ ticket.fields?.storyPoints }}
+            <div class="ticket">
+                <strong>{{ ticket.key }}</strong> - story points: {{ ticket.fields?.storyPoints }}
+            </div>
         </li>
     </ul>
 </div>
