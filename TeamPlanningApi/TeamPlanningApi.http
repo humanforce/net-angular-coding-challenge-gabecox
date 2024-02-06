@@ -1,0 +1,6 @@
+@TeamPlanningApi_HostAddress = http://localhost:5187
+
+GET {{TeamPlanningApi_HostAddress}}
+Accept: application/json
+
+###

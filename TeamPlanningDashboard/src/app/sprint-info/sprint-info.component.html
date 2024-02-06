@@ -1,0 +1,26 @@
+<div class="widget-container">
+    <div class="widget">
+        <div class="sprint-nav">
+            <button class="nav-older" (click)="navigateSprint(-1)">older</button>
+            <div class="sprint-id">
+                <h1>{{sprintInfo.name}}</h1>
+            </div>
+            <button class="nav-newer" (click)="navigateSprint(1)">newer</button>
+        </div>
+    </div>
+    <div class="widget">
+        <div class="velocity">
+            <canvas id="VelocityChart" width="100%" height="100%">
+                {{chart}}
+            </canvas>
+        </div>
+    </div>
+    <div class="widget">
+        <div class="capacity">
+            <h1>
+                Capacity:
+                {{sprintInfo.capacity}} hours
+            </h1>
+        </div>
+    </div>
+</div>
