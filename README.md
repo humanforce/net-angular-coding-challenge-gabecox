@@ -1,7 +1,18 @@
 To Run solution:
 
-navigate to TeamPlanningApi and run command "dotnet run"
-navigate to TeamPlanningDashboard and run command "npm install && npm start"
+navigate to TeamPlanningApi and run command:
+
+```
+dotnet run
+```
+
+navigate to TeamPlanningDashboard and run commands:
+
+```
+npm install
+npm start
+```
+
 view dashboard on http://localhost:4200/
 
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-718a45dd9cf7e7f842a935f5ebbe5719a5e09af4491e668f4dbf3b35d5cca122.svg)](https://classroom.github.com/online_ide?assignment_repo_id=13673957&assignment_repo_type=AssignmentRepo)
